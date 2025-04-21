@@ -207,6 +207,14 @@ p {
   padding: 0 50px 50px 50px;
 }
 
+@media (max-width: 600px) {
+  .work-card {
+    width: 100%;
+  }
+  .bounce {
+    padding: 50px 0 0 0;
+  }
+}
 .html {
   border-top: solid 8px rgb(245, 111, 63);
 }
@@ -221,4 +229,11 @@ p {
 
 .react {
   border-top: solid 8px rgb(41, 122, 243);
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
