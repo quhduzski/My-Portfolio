@@ -60,6 +60,10 @@ nav .hamburger-list-container .nav-link {
   display: block;
 }
 
+.hamburger-list-container {
+  display: none;
+}
+
 .hidden {
   display: none !important;
 }
@@ -80,6 +84,9 @@ nav .hamburger-list-container .nav-link {
   }
   .menu-container .nav-link {
     display: none;
+  }
+  .hamburger-list-container {
+    display: block;
   }
 }
 
