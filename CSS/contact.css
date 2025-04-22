@@ -1,0 +1,27 @@
+.contact {
+  background-color: #57606f;
+  text-align: center;
+  padding: 250px;
+}
+
+.contact ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section a {
+  color: #8e44ad;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact {
+    padding: 250px 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    padding: 250px 50px;
+  }
+}
