@@ -41,7 +41,7 @@
 
 @media (max-width: 1000px) {
   .main-section {
-    height: fit-content;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -53,6 +53,7 @@
   }
   .headshot {
     margin-left: 0;
+    padding: 15px 0;
   }
 }
 
@@ -143,6 +144,9 @@
   .quote-container {
     padding: 100px 0 !important;
     width: 80% !important;
+  }
+  .about-section h3 {
+    font-size: 30px;
   }
 }
 
