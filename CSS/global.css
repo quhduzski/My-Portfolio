@@ -7,6 +7,7 @@ body {
   padding: 0;
   background-color: #1c1d1e;
   font-family: Readex Pro, Times, serif;
+  text-align: center;
 }
 
 nav {
@@ -97,7 +98,7 @@ section h3 {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 50px;
   margin: 0;
 }
 
