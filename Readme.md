@@ -91,5 +91,5 @@ This project is currently unlicensed. For usage permissions, please contact the 
 ## 📬 Contact
 
 - GitHub: [@quhduzski](https://github.com/quhduzski)
-- LinkedIn: [Your Professional Profile](https://linkedin.com/in/yourprofile)
-- Portfolio Contact Form: [Send Message](https://your-portfolio-domain.com/contact)
+- LinkedIn: [Aliu Qudus](https://www.linkedin.com/in/aliuqudusolalekan/)
+<!-- - Portfolio Contact Form: [Send Message](https://your-portfolio-domain.com/contact) -->
