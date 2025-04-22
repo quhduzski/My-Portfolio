@@ -20,7 +20,7 @@
 }
 
 .headshot {
-  width: 330px;
+  width: 300px;
   border-radius: 200px;
   padding: 40px;
   margin-left: 10vw;
@@ -30,16 +30,16 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  padding: 20px 0 20px 0;
+  padding: 20px;
 }
 
 .introduction {
   width: 40vw;
   padding: 30px;
-  border-left: 4px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 255, 255);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .main-section {
     height: fit-content;
     display: flex;
