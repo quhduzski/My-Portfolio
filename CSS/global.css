@@ -52,26 +52,31 @@ nav .nav-link:hover {
   background-color: rgb(7, 7, 64);
 }
 
-/* nav .hamburger {
+nav .hamburger {
   display: none;
 }
 
 nav .hamburger-list-container .nav-link {
   display: block;
-} */
+}
 
-.hamburger-list-container {
+/* .hamburger-list-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* moves content to the right */
-}
+/* } */
 
 nav .hamburger-list-container .nav-link {
   display: block;
   text-align: left; /* aligns the text inside each link to the right */
 }
 
-.hamburger-list-container {
+@media screen and (min-width: 600px) {
+  .hamburger-list-container {
+    display: none;
+  }
+}
+*/ .hamburger-list-container {
   display: none;
 }
 
