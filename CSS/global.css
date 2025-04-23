@@ -52,12 +52,23 @@ nav .nav-link:hover {
   background-color: rgb(7, 7, 64);
 }
 
-nav .hamburger {
+/* nav .hamburger {
   display: none;
 }
 
 nav .hamburger-list-container .nav-link {
   display: block;
+} */
+
+.hamburger-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* moves content to the right */
+}
+
+nav .hamburger-list-container .nav-link {
+  display: block;
+  text-align: left; /* aligns the text inside each link to the right */
 }
 
 .hamburger-list-container {
@@ -111,6 +122,42 @@ h1 {
 
 p {
   font-size: 18px;
+}
+
+.work-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work-card {
+  width: 25%;
+  background-color: rgb(30, 35, 40);
+  margin: 10px;
+  padding: 0 50px 50px 50px;
+}
+
+@media (max-width: 600px) {
+  .work-card {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.html {
+  border-top: solid 8px rgb(245, 111, 63);
+}
+
+.css {
+  border-top: solid 8px rgb(58, 242, 135);
+}
+
+.js {
+  border-top: solid 8px rgb(223, 247, 12);
+}
+
+.react {
+  border-top: solid 8px rgb(41, 122, 243);
 }
 
 footer {
